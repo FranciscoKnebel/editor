@@ -1,0 +1,16 @@
+@import "~quill/dist/quill.core.css";
+@import '~quill/dist/quill.snow.css';
+@import '~quill/dist/quill.bubble.css';
+
+@import "./normalize.css";
+
+.ql-toolbar.ql-snow {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: whitesmoke;
+}
+
+.ql-toolbar.ql-snow + #editor {
+  padding-top: 42px;
+}

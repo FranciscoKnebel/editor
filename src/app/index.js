@@ -1,8 +1,4 @@
-import logMessage from './js/logger';
 import './css/index.css';
-
-// Log message to console
-logMessage('A very warm welcome to Expack!');
 
 // Needed for Hot Module Replacement
 if (typeof (module.hot) !== 'undefined') {
